@@ -1,0 +1,37 @@
+{
+  "name": "node-express-typescript-starter",
+  "version": "1.0.0",
+  "description": "node.js express typescript starter",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/",
+    "start:dev": "nodemon",
+    "lint": "eslint --ext .ts ."
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Jason",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.35",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
